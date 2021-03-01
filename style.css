@@ -1,0 +1,518 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #0c0c0c;
+}
+main {
+  max-width: 1850px;
+  margin: auto;
+}
+section img {
+  vertical-align: middle;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #f2f2f2;
+}
+header span {
+  background-color: #fe5642;
+}
+.statement h3 {
+  padding-top: 6%;
+  margin-left: 5%;
+  font-size: 16px;
+}
+.statement p {
+  padding-top: 2%;
+  margin-left: 5%;
+  font-size: 13px;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+.navigation ul li {
+  padding: 5%;
+  font-size: 17px;
+}
+.naviation ul li:active a {
+  color: #3e3e3e;
+}
+a:link, a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+.headerContainer2 {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+}
+.headerContainer2 img {
+  padding: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #0f0e0e;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+footer h2 {
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer img {
+  height: 30px;
+  margin-left: 5px;
+}
+
+footer p {
+  font-size: 14px;
+  padding-top: 1%;
+  padding-bottom: 2.5%;
+}
+
+/* Home Page Section Styles */
+
+.aboutMeHeader {
+  padding-left: 2.5%;
+  width: 40%;
+  background-color: #fe5642;
+  font-size: 27.5px;
+}
+.aboutMe {
+  padding: 12px;
+  font-family: Georgia;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.skills {
+  align-items: center;
+  text-align: left;
+  padding: 12px;
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 35px;
+}
+.span1 {
+  background-color: #000;
+  color: #fff;
+}
+.span2 {
+  background-color: #e0e0e0;
+}
+.portfolioDiv {
+  text-align: center;
+}
+button {
+  background-color: #fff;
+  font-family: Georgia;
+  border: 2px solid #000;
+  padding: 10px;
+  margin-right: 7px;
+  margin-bottom: 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 13px;
+  width: 45%;
+}
+button:link {
+  text-decoration: none;
+  color: #000;
+}
+button:hover {
+  transition: 0.5s;
+  background-color: #000;
+  color: #fff;
+}
+
+/* CV Page Section Styles */
+
+section h1 {
+  padding-left: 2.5%;
+  width: 27%;
+  background-color: #fe5642;
+  font-size: 35px;
+}
+.summaryHeader {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+}
+.summary p {
+  padding: 12px;
+  font-family: Georgia;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+section h3{
+  text-align: right;
+  padding-right: 2.5%;
+  width: 43%;
+  background-color: #fe5642;
+  font-size: 21px;
+}
+.skillsCV li {
+  align-items: center;
+  text-align: center;
+  padding: 12px;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #E0E0E0;
+  list-style-position: inside;
+  margin-right: 8.5%;
+}
+.workCV span {
+  font-size: 15px;
+}
+.workCV p {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: Georgia;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.educationCV span {
+  font-size: 15px;
+}
+.educationCV p {
+  padding-right: 12px;
+  padding-left: 12px;
+  font-family: Georgia;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.interestCV p {
+  padding: 12px;
+  font-family: Georgia;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+/* Portfolio Page Section Styles */
+
+.menuButtons {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+}
+.portfolioHeader h2 {
+  padding-left: 2.5%;
+  width: 51%;
+  background-color: #fe5642;
+  font-size: 35px;
+}
+
+/* Web Designs Page Section Styles */
+
+.webPortfolioImg {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  text-align: center;
+}
+.webPortfolioImg img {
+  margin-top: 2.5%;
+  margin-bottom: 1.5%;
+  border: 2px solid #000;
+  width: 75%;
+}
+.webPortfolioImg button {
+  margin-bottom: 0.5%;
+  margin-right: 0;
+  width: 75%;
+  background-color: #000;
+  padding: 1px;
+  color: #fff;
+}
+.webPortfolioImg button:link {
+  text-decoration: none;
+  color: #000;
+}
+.webPortfolioImg button:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Graphics Page Section Styles */
+
+.mySlides1, .mySlides2, .mySlides3 {
+  display: none;
+  padding: 5px 45px;
+}
+.slideshow-container {
+  max-width: 1850px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Contact Page Section Styles */
+
+.contactHeader h2 {
+  padding-left: 2.5%;
+  width: 51%;
+  background-color: #fe5642;
+  font-size: 35px;
+}
+.headerContact {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+}
+.contact p {
+  padding: 12px;
+  font-family: Georgia;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+/* Larger Screen Devices */
+
+@media screen and (min-width: 770px) {
+
+  /* Header Media Styles */
+
+  .headerContainer1 {
+    display: flex;
+  }
+  .statement {
+    width: 70%;
+  }
+  .statement h3 {
+    font-size: 22px;
+  }
+  .statement p {
+    font-size: 22px;
+  }
+  .navigation {
+    padding-top: 2%;
+    width: 45%;
+    text-align: center;
+  }
+  .navigation a {
+    color: #000;
+  }
+  .navigation ul {
+    background-color: #f2f2f2;
+    font-size: 18px;
+    color: #000;
+  }
+
+  /* Footer Media Styles */
+
+  footer h2 {
+    font-size: 33px;
+  }
+  footer img {
+    height: 50px;
+    margin-left: 20px;
+  }
+  footer p {
+    font-size: 19px;
+  }
+
+  /* Home Page Media Styles */
+
+  .headerContainer2 {
+    display: flex;
+    font-size: 50px;
+  }
+  .statement2 {
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 4%;
+    text-align: left;
+    width: 65%;
+  }
+  .headerImg {
+    margin-right: 15px;
+    width: 50%;
+  }
+  .aboutMeHeader {
+    width: 30%;
+    padding-left: 3.5%;
+    font-size: 45px;
+  }
+  .aboutMe {
+    margin-left: 23%;
+    margin-right: 23%;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 2px;
+  }
+  .skills {
+    text-align: center;
+    padding: 12px;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 53px;
+  }
+  .portfolioDiv {
+    padding-bottom: 5%;
+  }
+  button {
+    font-size: 22px;
+    padding: 19px;
+  }
+
+  /* CV Page Media Styles */
+
+  section h1 {
+    font-size: 55px;
+    width: 35%;
+  }
+  .summaryHeader {
+    font-size: 39px;
+  }
+  .summary p {
+    margin-left: 23%;
+    margin-right: 23%;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  section h3 {
+    font-size: 41px;
+    width: 24%;
+  }
+  .skillsCV li {
+    font-size: 22px;
+    margin-left: 21.5%;
+    margin-right: 21.5%;
+  }
+  .workCV span {
+    font-size: 18px;
+  }
+  .workCV p {
+    font-size: 20px;
+    padding-left: 23%;
+    padding-right: 23%;
+    line-height: 35px;
+  }
+  .educationCV span {
+    font-size: 18px;
+  }
+  .educationCV p {
+    font-size: 20px;
+    padding-left: 23%;
+    padding-right: 23%;
+  }
+  .interestCV span {
+    font-size: 18px;
+  }
+  .interestCV p {
+    font-size: 20px;
+    padding-left: 23%;
+    padding-right: 23%;
+    line-height: 35px;
+  }
+
+  /* Portfolio Page Media Styles */
+
+  .portfolioHeader h2 {
+    width: 35%;
+    font-size: 55px;
+  }
+  .mySlides1, .mySlides2, .mySlides3 {
+    padding-top: 35px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  /* Contact Page Media Styles */
+
+  .contactHeader h2{
+    width: 35%;
+    font-size: 55px;
+  }
+  .headerContact {
+    font-size: 39px;
+  }
+  .contact p {
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 23%;
+    margin-right: 23%;
+  }
+  .contactForm {
+    font-size: 22px;
+    margin-left: 23%;
+    margin-right: 23%;
+  }
+  form {
+    padding-top: 4.5%;
+  }
+  input[type=text], textarea {
+    width: 100%;
+  }
+  input[type=submit] {
+    width: 50%;
+  }
+}

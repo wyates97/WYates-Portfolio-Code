@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page | WYates Portfolio</title>
+    <meta name="description" content="Homepage">
+  </head>
+  <body>
+    <!-- The page content goes here -->
+    <main>
+      <header>
+
+        <div class='headerContainer1'>
+
+          <div class='statement'>
+            <h3>I'm Warren Yates.</h3>
+            <p>A <span>Front End Developer</span>, UX & UI Designer <br> and Graphic Designer</p>
+          </div>
+
+          <div class='navigation'>
+            <ul>
+              <li class='active'><a href='index.html'>Home</li>
+              <li><a href='cv.html'>CV</a></li>
+              <li><a href='portfolio.html'>Portfolio</a></li>
+              <li><a href='contact.html'>Contact</a></li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+            <script type="text/javascript">
+               $(document).on('click', 'nav ul li', function(){
+                 $(this).addClass('active').siblings().removeClass('active')
+               })
+            </script>
+          </div>
+
+         </div>
+
+         <div class='headerContainer2'>
+           <div class='statement2'>
+             <p><b>I'm looking</b> for <b>an opportunity</b> to make an   <b>impact.</b> <br> In a <span><b>digital</b></span> way.</p>
+          </div>
+          <div class='headerImg'>
+            <img src='images/profile_pic.png'></img>
+          </div>
+         </div>
+
+       </header>
+
+       <section>
+         <div class='aboutMeHeader'>
+           <p>This is <b>me</b></p>
+         </div>
+         <div class='aboutMe'>
+           <p>I'm graduating from Kent State University with a Bachelor of Science in Spring 2021, and am starting to search for opportunities as a Front End Developer or as a UX/UI Designer. My emerging media and technology major has provided me with the knowledge of HTML & CSS, responsive web designing, usability testing/reporting, project management, database management (MySQL & Oracle), and a bit of graphic designing.</p>
+           <p>I began my own sports graphic design brand my freshman year of college and have continued to manage it while learning about important design principles through my college courses. The knowledge behind human interactions with technology interested me, so I concentrated on digital system interactions and a minor in UXD. While running my brand and taking classes such as 'Project Management' I developed skills in maintaining efficiency, managing a schedule, and gained experience with interacting with clients to deliver the best products possible. I hope to continue my passion for digital designs and allow each of developed skills to be utilized in the workplace.</p>
+         </div>
+         <div class='skills'>
+           <p>Responsive Web Design <span class='span1'>HTML & CSS</span><br><span class='span2'>Usability Testing & Reporting</span><br><span class='span1'>Flexbox</span> Semantic HTML<br><span class='span2'>Python Language</span> <span class='span1'>Database Management</span><br><span class='span1'>MySQL & Oracle</span> Project Management<br><span class='span2'>Adobe Suites (Photoshop, Illustrator, etc.)</span></p>
+         </div>
+         <div class='portfolioDiv'>
+           <button type='submit' onclick="location.href='portfolio.html'">See Portfolio</button>
+         </div>
+       </section>
+
+       <footer>
+         <h2>Social Media Accounts</h2>
+         <a href='https://www.instagram.com/theofficialviz/'><img src='images/footer/ig.webp' alt='Instagram'/></a>
+         <a href='https://www.linkedin.com/in/warren-yates-28261a18b/'><img src='images/footer/linkedin.webp' alt='LinkedIn'/></a>
+         <a href='https://www.facebook.com/warren.yates.5/'><img src='images/footer/facebook.webp' alt='FaceBook'/></a>
+         <a href='https://twitter.com/Warren_Yates1'><img src='images/footer/twitter.webp' alt='Twitter'/></a>
+         <p>© 2021 by Warren Yates.</p>
+       </footer>
+       <!-- Add your stylesheet here, before the closing HTML tag -->
+       <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    </main>
+  </body>
+</html>

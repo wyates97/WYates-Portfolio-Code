@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Page | WYates Portfolio</title>
+    <meta name="description" content="Portfolio">
+  </head>
+  <body>
+    <!-- The page content goes here -->
+    <main>
+      <header>
+
+        <div class='headerContainer1'>
+
+          <div class='statement'>
+            <h3>I'm Warren Yates.</h3>
+            <p>A <span>Front End Developer</span>, UX & UI Designer <br> and Graphic Designer</p>
+          </div>
+
+          <div class='navigation'>
+            <ul>
+              <li><a href='index.html'>Home</li>
+              <li><a href='cv.html'>CV</a></li>
+              <li class='active'><a href='portfolio.html'>Portfolio</a></li>
+              <li><a href='contact.html'>Contact</a></li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+            <script type="text/javascript">
+               $(document).on('click', 'nav ul li', function(){
+                 $(this).addClass('active').siblings().removeClass('active')
+               })
+            </script>
+          </div>
+
+         </div>
+       </header>
+
+       <section>
+         <div class='portfolioHeader'>
+           <h2>Portfolio</h2>
+         </div>
+         <div class='menuButtons'>
+           <button type='submit' class='button' onclick="location.href='websites-portfolio.html'">Web Designs</button>
+           <button type='submit' class='button' onclick="location.href='graphics-portfolio.html'">Graphics</button>
+         </div>
+       </section>
+
+       <section>
+         <div class='webPortfolioImg'>
+           <img src='images/websites/KatiesPizza_img.png'>
+           <button type='submit' class='button' onclick="location.href='http://personal.kent.edu/~wyates2/KatiesPizza/'">Live Version</button>
+           <br>
+           <button type='submit' class='button' onclick="location.href='https://github.com/wyates97/KatiesPizza-Code'">View Code</button>
+           <img src='images/websites/Barraco_img.png'>
+           <button type='submit' class='button' onclick="location.href='http://personal.kent.edu/~wyates2/barroco/'">Live Version</button>
+           <br>
+           <button type='submit' class='button' onclick="location.href='https://github.com/wyates97/Barroco-Code'">View Code</button>
+         </div>
+       </section>
+
+       <footer>
+         <h2>Social Media Accounts</h2>
+         <a href='https://www.instagram.com/theofficialviz/'><img src='images/footer/ig.webp' alt='Instagram'/></a>
+         <a href='https://www.linkedin.com/in/warren-yates-28261a18b/'><img src='images/footer/linkedin.webp' alt='LinkedIn'/></a>
+         <a href='https://www.facebook.com/warren.yates.5/'><img src='images/footer/facebook.webp' alt='FaceBook'/></a>
+         <a href='https://twitter.com/Warren_Yates1'><img src='images/footer/twitter.webp' alt='Twitter'/></a>
+         <p>© 2021 by Warren Yates.</p>
+       </footer>
+       <!-- Add your stylesheet here, before the closing HTML tag -->
+       <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    </main>
+  </body>
+</html>
